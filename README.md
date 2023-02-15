@@ -1,1 +1,1 @@
-# PlantDoc-An-App-to-Diagnose-Plants
+# PlantDoc: An App to Diagnose Plants
