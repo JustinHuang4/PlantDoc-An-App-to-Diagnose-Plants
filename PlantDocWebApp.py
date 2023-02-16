@@ -157,7 +157,7 @@ if selection == 'ABOUT PLANTDOC':
     </style> """, unsafe_allow_html=True)
     st.markdown('<p class="font3">PlantDoc has two parts: the AI model and web app. The AI model is built using the TensorFlow framework in the Python Language while the web app is built using Streamlit using HTMl/CSS formatting. I trained the model in Google Colab on a dataset consisting of 13 types of plant conditions sourced from the Kaggle New Plant Diseases Dataset and deployed the model into this web app with Streamlit.</p>', unsafe_allow_html=True)
     
-    st.image("processdiagram.png", caption='Diagram Detailing the Process of DebriDetec, from data input to web app deployment.')
+    st.image("DataFlowDiagramPlantDoc.jpg", caption='Diagram Detailing the Process of PlantDoc, from data input to web app deployment.')
     
     st.markdown(""" <style> .font2 {
     font-size:30px ; font-weight: 600; color: #0a0302;} 
