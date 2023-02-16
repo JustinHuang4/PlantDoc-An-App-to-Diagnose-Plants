@@ -48,9 +48,9 @@ if selection == 'CHECK YOUR PLANTS':
     st.markdown(""" <style> .font2 {
     font-size:20px; color: ##0a0302;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font2">An AI web app to diagnose your plants.</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font2">A Novel Plant Disease Classification Machine Learning Web Application</p>', unsafe_allow_html=True)
     
-    
+
       
     
 
@@ -74,7 +74,7 @@ if selection == 'CHECK YOUR PLANTS':
         img = tf.expand_dims(img, 0)
         probs = model.predict(img)
         score = tf.nn.softmax(probs[0])
-        text = ("Shoethentic predicts that this is an image of a **{} shoe with {:.2f}% confidence**."
+        text = ("PlantDoc predicts that this is an image of a/an **{}."
         .format(class_names[np.argmax(score)], 100 * np.max(score)))
         return text
 
@@ -82,21 +82,21 @@ if selection == 'CHECK YOUR PLANTS':
     loaded_model = tf.keras.models.load_model('PlantDocModel2.h5', compile=False)
     #loaded_model = tf.keras.models.load_model('PlantDocModel2.h5')
     class_names = [
-    'Apple___Black_rot',
-    'Apple___healthy',
-    'Cherry____healthy',
-    'Cherry____Powdery_mildew',
-    'Corn____healthy',
-    'Corn____Northern_Leaf_Blight',
-    'Grape___Black_rot',
-    'Grape___healthy',
-    'Potato___Early_blight',
-    'Potato___healthy',
+    'Apple with Black rot',
+    'Apple that is healthy',
+    'Cherry that is healthy',
+    'Cherry with Powdery mildew',
+    'Corn that is healthy',
+    'Corn with Northern Leaf Blight',
+    'Grape with Black_rot',
+    'Grape that is healthy',
+    'Potato with Early blight',
+    'Potato that is healthy',
 
-    'Tomato___Bacterial_spot',
-    'Bell Pepper: Bacterial Spot',
-    'Tomato___healthy',
-    'Tomato___Tomato_mosaic_virus'
+    'Tomato with a Bacterial spot',
+    
+    'Tomato that is healthy',
+    'Tomato with the Tomato mosaic virus'
     ]
 
 
