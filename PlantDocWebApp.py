@@ -145,7 +145,11 @@ if selection == 'ABOUT PLANTDOC':
     st.markdown(""" <style> .font3 {
     font-size:20px ;  color: #fffafa;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font3">Due to the high usage of pesticides, many plant diseases have become resilient and more common. In addition, farmers, especially those living in isolated or rural parts of the world, may not know what or if a disease has affected their plant. Therefore it is essential to figure out what diseases are affecting plants so consumers do not get sick. So, the goal of **PlantDoc** is to provide the farmers and gardeners an opportunity to check the conditions of each and every plant they tend to. **PlantDoc** aims to make this checking process simpler and more convenient by utilizing AI & machine learning.</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font3">Due to the high usage of pesticides, many plant diseases have become resilient and more common. In addition, farmers, especially those living in isolated or rural parts of the world, may not know what or if a disease has affected their plant. Therefore it is essential to figure out what diseases are affecting plants so consumers do not get sick. So, the goal of **PlantDoc** is to provide the farmers and gardeners an opportunity to check the conditions of each and every plant they tend to. **PlantDoc** aims to make this checking process simpler and more convenient by utilizing AI & machine learning to self-diagnose affected plants. In addition, I want to help raise awareness for plant preservation and reducing plant diseases and build this app as a convenient platform with resources to educate every planter about their impacts on the earth and help them understand what choices they can make to raise healthier plants.
+                
+                
+                
+                </p>', unsafe_allow_html=True)
     
     st.markdown(""" <style> .font2 {
     font-size:30px ; font-weight: 600; color: #0a0302;} 
@@ -158,6 +162,16 @@ if selection == 'ABOUT PLANTDOC':
     st.markdown('<p class="font3">PlantDoc has two parts: the AI model and web app. The AI model is built using the TensorFlow framework in the Python Language while the web app is built using Streamlit using HTMl/CSS formatting. I trained the model in Google Colab on a dataset consisting of 13 types of plant conditions sourced from the Kaggle New Plant Diseases Dataset and deployed the model into this web app with Streamlit.</p>', unsafe_allow_html=True)
     
     st.image("DataFlowDiagramPlantDoc.jpg", caption='Diagram Detailing the Process of PlantDoc, from data input to web app deployment.')
+                
+    st.markdown(""" <style> .font2 {
+    font-size:30px ; font-weight: 600; color: #0a0302;} 
+    </style> """, unsafe_allow_html=True)
+    st.markdown('<p class="font2">Benefits and Potential Impacts of PlantDoc</p>', unsafe_allow_html=True)
+
+    st.markdown(""" <style> .font3 {
+    font-size:20px ; color: #0a0302;} 
+    </style> """, unsafe_allow_html=True)
+    st.markdown('<p class="font3">PlantDoc is one of the first ever AI web apps to help diagnose plants. Diagnosing plants in their earliest stages of a disease leads to early treatment, healthier plants, and therefore healthier food for people and animals.</p>', unsafe_allow_html=True)
     
     st.markdown(""" <style> .font2 {
     font-size:30px ; font-weight: 600; color: #0a0302;} 
