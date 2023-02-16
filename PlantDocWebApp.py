@@ -282,7 +282,7 @@ if selection == 'CONTACT US':
 
         st.write("[Click to send us an email](mailto:justinh45700@gmail.com)")
     
-   st.markdown(""" <style> .font2 {
+    st.markdown(""" <style> .font2 {
     font-size:30px ; font-weight: 600; color: #0a0302;} 
     </style> """, unsafe_allow_html=True)
     st.markdown('<p class="font2">More Info</p>', unsafe_allow_html=True)
