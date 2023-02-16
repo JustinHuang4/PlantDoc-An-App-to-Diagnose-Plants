@@ -48,7 +48,7 @@ if selection == 'CHECK YOUR PLANTS':
     st.markdown(""" <style> .font2 {
     font-size:20px; color: ##0a0302;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font2">Created by Julia & Justin Huang</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font2">by Justin Huang</p>', unsafe_allow_html=True)
     
     
       
@@ -79,8 +79,8 @@ if selection == 'CHECK YOUR PLANTS':
         return text
 
   
-
-    loaded_model = tf.keras.models.load_model('PlantDocModel2.h5')
+    loaded_model = tf.keras.models.load_model('PlantDocModel2.h5', compile=False)
+    #loaded_model = tf.keras.models.load_model('PlantDocModel2.h5')
     class_names = [
     'Apple___Black_rot',
     'Apple___healthy',
