@@ -88,7 +88,7 @@ if selection == 'CHECK YOUR PLANTS':
     'Cherry with Powdery mildew',
     'Corn that is healthy',
     'Corn with Northern Leaf Blight',
-    'Grape with Black_rot',
+    'Grape with Black rot',
     'Grape that is healthy',
     'Potato with Early blight',
     'Potato that is healthy',
