@@ -13,7 +13,7 @@ from PIL import Image, ImageOps
 from datetime import date
 from st_btn_select import st_btn_select
 
-selection = st_btn_select(('CHECK YOUR PLANTS', 'PLANT DISEASES INFO', 'ABOUT OUR APP', 'CONTACT US'))
+selection = st_btn_select(('CHECK YOUR PLANTS', 'PLANT DISEASES INFO', 'ABOUT PlANTDOC', 'CONTACT'))
 
 
 
@@ -109,7 +109,7 @@ if selection == 'CHECK YOUR PLANTS':
     st.markdown(predictionText)   
     #st.markdown('<p class="font2">predictionText</p>', unsafe_allow_html=True)
     
-if selection == 'ABOUT OUR APP':
+if selection == 'ABOUT PLANTDOC':
     import base64
     def add_bg_from_local(image_file):
         with open(image_file, "rb") as image_file:
@@ -244,7 +244,7 @@ if selection == 'PLANT DISEASES INFO':
     
     
        
-if selection == 'CONTACT US':
+if selection == 'CONTACT':
     import base64
     def add_bg_from_local(image_file):
         with open(image_file, "rb") as image_file:
@@ -268,19 +268,16 @@ if selection == 'CONTACT US':
     st.markdown('<p class="font">Contact PlantDoc Creators</p>', unsafe_allow_html=True)
    
 
-    st.markdown(""" <style> .font2 {
-    font-size:30px ; font-weight: 600; color: #0a0302;} 
-    </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font2">About the Creators</p>', unsafe_allow_html=True)
+
 
     st.markdown(""" <style> .font3 {
     font-size:20px ; color: #fffafa;} 
     </style> """, unsafe_allow_html=True)
     st.markdown('<p class="font3"> Have a question? Email us for questions, website bugs, or concerns.</p>', unsafe_allow_html=True)
   
-    if st.button('Email Us'):
+    if st.button('Email the Creator'):
 
-        st.write("[Click to send us an email](mailto:justinh45700@gmail.com)")
+        st.write("[Send me an email](mailto:justinh45700@gmail.com)")
     
     st.markdown(""" <style> .font2 {
     font-size:30px ; font-weight: 600; color: #0a0302;} 
