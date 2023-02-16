@@ -13,7 +13,7 @@ from PIL import Image, ImageOps
 from datetime import date
 from st_btn_select import st_btn_select
 
-selection = st_btn_select(('CHECK YOUR PLANTS', 'PLANT DISEASES INFO', 'ABOUT PlANTDOC', 'CONTACT'))
+selection = st_btn_select(('CHECK YOUR PLANTS', 'PLANT DISEASES INFO', 'ABOUT PLANTDOC', 'CONTACT'))
 
 
 
