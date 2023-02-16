@@ -65,11 +65,11 @@ if selection == 'CHECK YOUR PLANTS':
     st.markdown('<p class="font5">Upload Plant Image Here</p>', unsafe_allow_html=True)
     
     image = st.file_uploader(label = " ", type = ['png','jfif', 'jpg', 'jpeg', 'tif', 'tiff', 'raw', 'webp'])
-
+ 
     def import_and_predict(image_data, model):
         size = (256, 256)
-        #image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
-        image = np.array(Image.open(image_data).resize((256, 256)))
+        image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+        #image = np.array(Image.open(image_data).resize((256, 256)))
         img = tf.keras.utils.img_to_array(image)
         img = tf.expand_dims(img, 0)
         probs = model.predict(img)
