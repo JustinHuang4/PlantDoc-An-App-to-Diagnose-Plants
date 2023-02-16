@@ -80,7 +80,7 @@ if selection == 'CHECK YOUR PLANTS':
 
   
 
-    loaded_model = tf.keras.models.load_model('plant_disease_model2.h5')
+    loaded_model = tf.keras.models.load_model('PlantDocModel2.h5')
     class_names = [
     'Tomato: Late Blight',
     'Tomato: Septoria Leaf Spot',
