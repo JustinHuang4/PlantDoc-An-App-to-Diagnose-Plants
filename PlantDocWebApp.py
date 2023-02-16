@@ -146,11 +146,7 @@ if selection == 'ABOUT PLANTDOC':
     st.markdown(""" <style> .font3 {
     font-size:20px ;  color: #fffafa;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font3">Due to the high usage of pesticides, many plant diseases have become resilient and more common. In addition, farmers, especially those living in isolated or rural parts of the world, may not know what or if a disease has affected their plant. Therefore it is essential to figure out what diseases are affecting plants so consumers do not get sick. So, the goal of **PlantDoc** is to provide the farmers and gardeners an opportunity to check the conditions of each and every plant they tend to. **PlantDoc** aims to make this checking process simpler and more convenient by utilizing AI & machine learning to self-diagnose affected plants. In addition, I want to help raise awareness for plant preservation and reducing plant diseases and build this app as a convenient platform with resources to educate every planter about their impacts on the earth and help them understand what choices they can make to raise healthier plants.
-                
-                
-                
-                </p>', unsafe_allow_html=True)
+    st.markdown('<p class="font3">Due to the high usage of pesticides, many plant diseases have become resilient and more common. In addition, farmers, especially those living in isolated or rural parts of the world, may not know what or if a disease has affected their plant. Therefore it is essential to figure out what diseases are affecting plants so consumers do not get sick. So, the goal of **PlantDoc** is to provide the farmers and gardeners an opportunity to check the conditions of each and every plant they tend to. **PlantDoc** aims to make this checking process simpler and more convenient by utilizing AI & machine learning to self-diagnose affected plants. In addition, I want to help raise awareness for plant preservation and reducing plant diseases and build this app as a convenient platform with resources to educate people on how to raise healthier plants.</p>', unsafe_allow_html=True)
     
     st.markdown(""" <style> .font2 {
     font-size:30px ; font-weight: 600; color: #0a0302;} 
