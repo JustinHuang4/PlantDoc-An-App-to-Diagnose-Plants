@@ -57,7 +57,8 @@ if selection == 'CHECK YOUR PLANTS':
     st.markdown(""" <style> .font3 {
     font-size:35px ; font-weight: 600; color: #ff958a; background-color: #0a0302;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font3">Detect if your plants have a disease or not via AI technology: receive a quick & convenient result within seconds!</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font3">Detect the type of disease/condition your plant has via AI technology</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font2">How this works: Take a picture of your plant/leaf, upload it below, and then PlantDoc will display the disease category. The CNN model can classify up to 13 common plant conditions with up to 94% accuracy.</p>', unsafe_allow_html=True)
 
     st.markdown(""" <style> .font5 {
     font-size:25px ; font-weight: 600; color: #2e0a06; background-color: #fcf6f5;} 
