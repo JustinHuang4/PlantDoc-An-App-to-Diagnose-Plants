@@ -206,50 +206,67 @@ if selection == 'PLANT DISEASES INFO':
     st.markdown(""" <style> .font {
     font-size:50px ; font-weight: 800; color: #7792E3; background-color: #fffafa;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font">About Common Plant Disease + How to Prevent Them</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font">How to Prevent Plant Diseases and Raise Healthier Plants</p>', unsafe_allow_html=True)
    
 
-    st.markdown(""" <style> .font2 {
-    font-size:30px ; font-weight: 600; color: #0a0302;} 
-    </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font2">About the Creators</p>', unsafe_allow_html=True)
+   
 
     st.markdown(""" <style> .font3 {
     font-size:20px ; color: #fffafa;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font3">The information page states relevant information for gardeners and farmers about the details of each disease and tips on how to prevent disease when growing plants. </p>', unsafe_allow_html=True)
+    st.markdown('<p class="font3">The information page states relevant information for gardeners and farmers on how to prevent disease when growing plants. </p>', unsafe_allow_html=True)
   
     
     
     st.markdown(""" <style> .font2 {
     font-size:30px ; font-weight: 600; color: #0a0302;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font2">Mission</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font2">ADD COMPOST</p>', unsafe_allow_html=True)
 
     st.markdown(""" <style> .font3 {
     font-size:20px ;  color: #fffafa;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font3">Due to the high usage of pesticides, many plant diseases have become resilient and more common. In addition, farmers, especially those living in isolated or rural parts of the world, may not know what or if a disease has affected their plant. Therefore it is essential to figure out what diseases are affecting plants so consumers do not get sick. So the goal of PlantDoc is to provide the farmers and gardeners an opportunity to check the conditions of each and every plant they tend to. PlantDoc aims to make this checking process simpler and more convenient by utilizing AI & machine learning.</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font3">To have a healthy balance of soil organisms in your soil and prevent diseases, we recommend adding at least one inch of compost to your soil before you plant in the spring. However, during its growing season, crops like corn and tomatoes require an additional 0.5 inch layer of compost each month.</p>', unsafe_allow_html=True)
     
     st.markdown(""" <style> .font2 {
     font-size:30px ; font-weight: 600; color: #0a0302;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font2">How PlantDoc was Built</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font2">INTERACTING WITH OTHER PLANTS</p>', unsafe_allow_html=True)
 
     st.markdown(""" <style> .font3 {
     font-size:20px ; color: #fffafa;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font3">PlantDoc has two parts: the AI model and web app. The AI model is built using the TensorFlow framework in the Python Language while the web app is built using Streamlit using HTMl/CSS formatting. We trained the model in Google Colab on a dataset consisting of 15 types of plant conditions sourced from the PlantVillage dataset on Kaggle and deployed the model into the web app with Streamlit.</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font3">Some diseases can be caused just by specific plant interactions. One example is allelopathy, which is chemical warfare that can cause non-infectious diseases. One specific example is that black walnuts produce juglone, a chemical toxic to other plants and can cause others to wilt and die.</p>', unsafe_allow_html=True)
     
     st.markdown(""" <style> .font2 {
     font-size:30px ; font-weight: 600; color: #0a0302;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font2">Future of PlantDoc</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font2">ROTATE YOUR PLANTS</p>', unsafe_allow_html=True)
 
     st.markdown(""" <style> .font3 {
     font-size:20px ; color: #0a0302;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font3">The accuracy of our CNN model is currently 92%, but we plan to improve the accuracy of the AI model even more. We also plan to partner with agricultural businesses so we can test out the app with farmers.</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font3">This is one way to prevent disease. Many pathogens in the soil can remain in a specific location for many years. Therefore, when replanting a species, plant them in a different location.</p>', unsafe_allow_html=True)
+    
+    st.markdown(""" <style> .font2 {
+    font-size:30px ; font-weight: 600; color: #0a0302;} 
+    </style> """, unsafe_allow_html=True)
+    st.markdown('<p class="font2">SANITATION</p>', unsafe_allow_html=True)
+    
+    st.markdown(""" <style> .font3 {
+    font-size:20px ; color: #0a0302;} 
+    </style> """, unsafe_allow_html=True)
+    st.markdown('<p class="font3">Even if just one of your plants becomes infected with a disease, it is imperial to throw it out quickly and clean the area to avoid spreading it to other nearby plants. Any plants infested should be removed and destroyed immediately.</p>', unsafe_allow_html=True)
+    
+    st.markdown(""" <style> .font2 {
+    font-size:30px ; font-weight: 600; color: #0a0302;} 
+    </style> """, unsafe_allow_html=True)
+    st.markdown('<p class="font2">SIGNS OF DISEASE</p>', unsafe_allow_html=True)
+    
+    st.markdown(""" <style> .font3 {
+    font-size:20px ; color: #0a0302;} 
+    </style> """, unsafe_allow_html=True)
+    st.markdown('<p class="font3">Look for light-colored roots- this means the plant is healthy. Blackish and slimy roots are a sign of poor root health and root rot disease. Check plants for tumor-like growths on roots and crowns.</p>', unsafe_allow_html=True)
     
     
        
