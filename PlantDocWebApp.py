@@ -82,22 +82,22 @@ if selection == 'CHECK YOUR PLANTS':
 
     loaded_model = tf.keras.models.load_model('PlantDocModel2.h5')
     class_names = [
-    'Tomato: Late Blight',
-    'Tomato: Septoria Leaf Spot',
-    'Tomato: Spider Mites/Two Spotted Spider Mite',
-    'Tomato: Yellow Leaf Curl Virus',
-    'Tomato: Bacterial Spot',
-    'Tomato: Healthy',
-    'Tomato: Target Spot',
-    'Potato: Late Blight',
-    'Potato: Early Blight',
-    'Tomato: Early Blight',
+    'Apple___Black_rot',
+    'Apple___healthy',
+    'Cherry____healthy',
+    'Cherry____Powdery_mildew',
+    'Corn____healthy',
+    'Corn____Northern_Leaf_Blight',
+    'Grape___Black_rot',
+    'Grape___healthy',
+    'Potato___Early_blight',
+    'Potato___healthy',
 
-    'Bell Pepper: Healthy',
+    'Tomato___Bacterial_spot',
     'Bell Pepper: Bacterial Spot',
-    'Tomato: Leaf Mold',
-    'Tomato: Mosaic Virus',
-    'Potato: Healthy']
+    'Tomato___healthy',
+    'Tomato___Tomato_mosaic_virus'
+    ]
 
 
     predictionText = "Prediction: Waiting for an image upload"
