@@ -13,7 +13,7 @@ from PIL import Image, ImageOps
 from datetime import date
 from st_btn_select import st_btn_select
 
-selection = st_btn_select(('CHECK YOUR PLANTS', 'PLANT DISEASES INFO', 'ABOUT PLANTDOC', 'CONTACT'))
+selection = st_btn_select(('CHECK YOUR PLANTS', 'PLANT MANAGEMENT INFO', 'ABOUT PLANTDOC', 'CONTACT'))
 
 
 
@@ -185,7 +185,7 @@ if selection == 'ABOUT PLANTDOC':
     
     
     
-if selection == 'PLANT DISEASES INFO':
+if selection == 'PLANT MANAGEMENT INFO':
     import base64
     def add_bg_from_local(image_file):
         with open(image_file, "rb") as image_file:
