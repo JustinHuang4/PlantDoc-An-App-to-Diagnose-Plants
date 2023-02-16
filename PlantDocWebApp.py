@@ -74,7 +74,7 @@ if selection == 'CHECK YOUR PLANTS':
         img = tf.expand_dims(img, 0)
         probs = model.predict(img)
         score = tf.nn.softmax(probs[0])
-        text = ("PlantDoc predicts that this is an image of a/an **{}."
+        text = ("PlantDoc predicts that this is an image of a/an **{}**."
         .format(class_names[np.argmax(score)], 100 * np.max(score)))
         return text
 
