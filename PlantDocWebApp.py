@@ -265,7 +265,7 @@ if selection == 'CONTACT':
     st.markdown(""" <style> .font {
     font-size:50px ; font-weight: 800; color: #7792E3; background-color: #fffafa;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font">Contact PlantDoc Creators</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font">Contact PlantDoc Creator</p>', unsafe_allow_html=True)
    
 
 
@@ -273,7 +273,7 @@ if selection == 'CONTACT':
     st.markdown(""" <style> .font3 {
     font-size:20px ; color: #fffafa;} 
     </style> """, unsafe_allow_html=True)
-    st.markdown('<p class="font3"> Have a question? Email us for questions, website bugs, or concerns.</p>', unsafe_allow_html=True)
+    st.markdown('<p class="font3"> Have a question? Email me for questions, website bugs, or concerns.</p>', unsafe_allow_html=True)
   
     if st.button('Email the Creator'):
 
